@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_email
+90023,"Long Beach Transit",http://www.ridelbt.com,America/Los_Angeles,en,(562) 591-2301,comments@lbtransit.com

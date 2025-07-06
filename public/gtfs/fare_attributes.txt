@@ -1,0 +1,4 @@
+fare_id,agency_id,price,currency_type,payment_method,transfers,transfer_duration
+passport,90023,0.00,USD,0,0,0
+fixed,90023,1.25,USD,0,0,0
+UCLA,90023,4.00,USD,0,0,0
