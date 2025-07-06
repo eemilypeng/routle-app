@@ -4,7 +4,7 @@ let answer = null;
 let map, shapeLayer;
 
 async function loadRoutes() {
-  const res = await fetch("routes.txt");
+  const res = await fetch("gtfs/routes.txt");
   const text = await res.text();
   const lines = text.trim().split("\n").slice(1);
   return lines.map(line => {
@@ -14,7 +14,7 @@ async function loadRoutes() {
 }
 
 async function loadShapes() {
-  const res = await fetch("shapes.txt");
+  const res = await fetch("gtfs/shapes.txt");
   const text = await res.text();
   const lines = text.trim().split("\n").slice(1);
   const shapeMap = {};
